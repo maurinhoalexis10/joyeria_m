@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyería Millaray | Plata 925 Artesanal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-gem">💎</div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">
+                <img src="img/logo.jpg" alt="Logo Joyería Millaray">
+            </a>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#sobre">Sobre Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Icon -->
+    <div class="cart-icon" id="cart-icon">
+        🛒 <span class="cart-count" id="cart-count">0</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Joyería Millaray</h1>
+            <p class="slogan">Elegancia artesanal en plata 925 italiana — Cada pieza cuenta una historia única</p>
+            <div class="cta-buttons">
+                <a href="#productos" class="btn btn-primary">
+                    Explorar Colección ✨
+                </a>
+                <a href="#sobre" class="btn btn-secondary">
+                    Nuestra Historia
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="productos">
+        <div class="section-header">
+            <h2>Nuestra Colección</h2>
+            <p>Piezas únicas diseñadas con pasión y craftsmanship excepcional</p>
+        </div>
+
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <div class="product-image-real">
+                    <img src="img/joya1.jpg" alt="Anillo Elegante">
+                    <div class="product-badge">NUEVO</div>
+                </div>
+                <div class="product-info">
+                    <h3>Anillo Elegante</h3>
+                    <p class="product-description">Anillo de plata 925 con diseño minimalista, perfecto para uso diario.</p>
+                    <div class="product-footer">
+                        <span class="price">$35.000</span>
+                        <button class="add-to-cart" 
+                                data-name="Anillo Elegante" 
+                                data-price="35000" 
+                                data-tag="NUEVO">
+                            Agregar 🛒
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <div class="product-image-real">
+                    <img src="img/joya2.jpg" alt="Collar Cristal">
+                    <div class="product-badge">POPULAR</div>
+                </div>
+                <div class="product-info">
+                    <h3>Collar Cristal</h3>
+                    <p class="product-description">Collar con cristales auténticos en plata italiana 925.</p>
+                    <div class="product-footer">
+                        <span class="price">$48.000</span>
+                        <button class="add-to-cart" 
+                                data-name="Collar Cristal" 
+                                data-price="48000" 
+                                data-tag="POPULAR">
+                            Agregar 🛒
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <div class="product-image-real">
+                    <img src="img/joya3.jpg" alt="Pulsera Artesanal">
+                    <div class="product-badge">EXCLUSIVO</div>
+                </div>
+                <div class="product-info">
+                    <h3>Pulsera Artesanal</h3>
+                    <p class="product-description">Pulsera tejida a mano con detalles en plata 925.</p>
+                    <div class="product-footer">
+                        <span class="price">$42.000</span>
+                        <button class="add-to-cart" 
+                                data-name="Pulsera Artesanal" 
+                                data-price="42000" 
+                                data-tag="EXCLUSIVO">
+                            Agregar 🛒
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <div class="product-image-real">
+                    <img src="img/joya4.jpg" alt="Aretes Diamante">
+                    <div class="product-badge">NUEVO</div>
+                </div>
+                <div class="product-info">
+                    <h3>Aretes Diamante</h3>
+                    <p class="product-description">Aretes elegantes con circonitas en plata 925.</p>
+                    <div class="product-footer">
+                        <span class="price">$38.000</span>
+                        <button class="add-to-cart" 
+                                data-name="Aretes Diamante" 
+                                data-price="38000" 
+                                data-tag="NUEVO">
+                            Agregar 🛒
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <div class="product-image-real">
+                    <img src="img/joya5.jpg" alt="Set Completo">
+                    <div class="product-badge">ESPECIAL</div>
+                </div>
+                <div class="product-info">
+                    <h3>Set Completo</h3>
+                    <p class="product-description">Set de collar y aretes en plata italiana 925.</p>
+                    <div class="product-footer">
+                        <span class="price">$75.000</span>
+                        <button class="add-to-cart" 
+                                data-name="Set Completo" 
+                                data-price="75000" 
+                                data-tag="ESPECIAL">
+                            Agregar 🛒
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <div class="product-image-real">
+                    <img src="img/joya6.jpg" alt="Anillo Corazón">
+                    <div class="product-badge">POPULAR</div>
+                </div>
+                <div class="product-info">
+                    <h3>Anillo Corazón</h3>
+                    <p class="product-description">Anillo con diseño de corazón, ideal para regalar.</p>
+                    <div class="product-footer">
+                        <span class="price">$40.000</span>
+                        <button class="add-to-cart" 
+                                data-name="Anillo Corazón" 
+                                data-price="40000" 
+                                data-tag="POPULAR">
+                            Agregar 🛒
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="sobre">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre Nosotros</h2>
+                <p>En Joyería Millaray nos especializamos en la creación de piezas únicas en plata italiana 925. Cada joya es trabajada artesanalmente con dedicación y pasión por el detalle.</p>
+                <p>Nuestra misión es ofrecer joyas que no solo embellecen, sino que cuentan historias y crean momentos memorables.</p>
+            </div>
+            <div class="about-features">
+                <div class="feature">
+                    <div class="feature-icon">💎</div>
+                    <h4>Plata 925</h4>
+                    <p>Garantía de autenticidad en cada pieza</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h4>Artesanal</h4>
+                    <p>Diseños únicos hechos a mano</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✨</div>
+                    <h4>Calidad Premium</h4>
+                    <p>Materiales de la más alta calidad</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚚</div>
+                    <h4>Envío Seguro</h4>
+                    <p>Entrega protegida a todo Chile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Panel -->
+    <div class="cart-panel" id="cart-panel">
+        <div class="cart-header">
+            <h3>Mi Carrito</h3>
+            <button class="close-cart" id="close-cart">×</button>
+        </div>
+        <ul class="cart-items" id="cart-items">
+            <div class="empty-cart">
+                <div class="empty-cart-icon">🛒</div>
+                <p>Tu carrito está vacío</p>
+            </div>
+        </ul>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span>$<span id="cart-total">0</span></span>
+            </div>
+            <button class="checkout-btn" id="checkout">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/56912345678" class="whatsapp-float" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Instagram Float -->
+    <a href="https://instagram.com/joyas.millarayyy" class="instagram-float" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Joyería Millaray</h3>
+                <p>Creando momentos especiales con joyas artesanales de plata italiana 925.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/joyas.millarayyy" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/56912345678" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://facebook.com/joyeriamillaray" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <p><a href="#inicio" style="color: #9ca3af; text-decoration: none;">Inicio</a></p>
+                <p><a href="#productos" style="color: #9ca3af; text-decoration: none;">Productos</a></p>
+                <p><a href="#sobre" style="color: #9ca3af; text-decoration: none;">Sobre Nosotros</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-envelope"></i> millarayr10@gmail.com</p>
+                <p><i class="fab fa-whatsapp"></i> +56 9 1234 5678</p>
+                <p><i class="fas fa-map-marker-alt"></i> Penco, Biobío, Chile</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Joyería Millaray. Todos los derechos reservados. Hecho con 💜 en Chile</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="cart.js"></script>
+</body>
+</html>
